@@ -1,0 +1,290 @@
+ body {
+    margin: 0;
+    padding: 0;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+h1 {
+    color: white;
+}
+.hero p {
+    color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover, a:active 
+    
+button:hover, button:active {
+    opacity: 0.9;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    position: relative;
+    padding: 220px;
+    
+}
+.hero p class{
+
+    font-size: 1rem;
+}
+.hero button {
+    background-color: red;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 20;
+    font-size: medium ;
+    color: white;
+    cursor: pointer;
+    
+}
+/* Mobile Styles */
+@media (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero button {
+        padding: 10px 20px;
+    }
+}
+
+/* What we do Section */
+.what-we-do {
+    padding: 60px 0;
+    background-color: white;
+}
+
+.what-we-do .icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+
+
+.icon {
+    text-align: center;
+}
+
+.icon-img {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service {
+    background-color: var(--header-bg-color);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service .icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/*Our results section*/
+.results {
+    padding: 60px;
+    background-color: var(--bg-color);
+}
+.results {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.results h1 {
+    text-align: center;
+}
+.results p  {
+    text-align: center;
+    color: white;
+}
+
+
+.results-img {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+/* styling forpentagon */
+.pentagons {
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+/* Contact Us Section */
+.contact-us {
+    padding: 60px;
+    background-color: white;
+    text-align: center;
+}
+
+.contact-us form {
+    max-width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us input, .contact-us textarea {
+    width: 65%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    border-bottom: solid 1px darkgray;
+    outline: none;
+}
+.contact-us form input {
+    border: none;
+    border-bottom: solid 1px darkgray;
+    outline: none;
+    text-align: left;
+}
+::placeholder {
+    text-align: left;
+}
+
+form input {
+    border: none;
+    border-bottom: solid 2px gray;
+    
+}
+.contact-us form button {
+    height: 40px;
+    padding: 0px;
+    margin: auto;
+
+}
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.contact-us button {
+    background-color: red;
+    color:white;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 80px;
+    width: 140px;
+
+}
+
+.contact-us button:hover, .contact-us button:active {
+    opacity: 0.9;
+}
+
+/* Footer Section */
+footer {
+    padding: 30px ;
+    color: white;
+    background-color: rgb(3, 3, 49);
+    font-size: small;
+}
+
+footer .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    padding-inline: 20px;
+}
+footer p {
+    text-align: center;
+}
+.footer-logo {
+    display: flex;
+    justify-content: space-between;
+}
+.image img {
+    width: 200px;
+}
+
+
+
+
